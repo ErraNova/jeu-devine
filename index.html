@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jeu : Devine le nombre</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🎯 Devine le nombre 🎯</h1>
+    <p>Je pense à un nombre entre <strong>1</strong> et <strong>100</strong>.</p>
+
+    <input type="number" id="guess" placeholder="Entre ton nombre" min="1" max="100">
+    <button id="check">Vérifier</button>
+
+    <p id="message"></p>
+    <p id="attempts">Essais : 0</p>
+
+    <button id="reset">Rejouer</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
